@@ -19,6 +19,20 @@ body {
   /* added */
 }
 
+.story-title {
+  font-weight: normal;
+  /* added */
+  font-style: italic;
+  font-size: 30px;
+  margin: 15px 0;
+  text-align: center;
+  /* end */
+}
+
+.story-text {
+  line-height: 1.5;
+}
+
 .row {
   display: flex;
   align-items: stretch;
@@ -26,5 +40,30 @@ body {
 
 .story {
   border: 1px solid #333;
+}
 
+.story-image {
+  width: 100%;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.half {
+  width: 50%;
+}
+
+.three-quarters {
+  width: 75%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  width: 100%;
+  flex: 1;
 }
