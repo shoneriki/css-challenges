@@ -18,3 +18,13 @@ body {
   font-size: 60px;
   /* added */
 }
+
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
+.story {
+  border: 1px solid #333;
+
+}
