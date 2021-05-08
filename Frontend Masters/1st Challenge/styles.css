@@ -8,14 +8,13 @@ body {
   height: 100vh;
 }
 
-h1 {
+.main-brand {
   font-family: 'Great Vibes', cursive ;
   text-align: center;
   font-weight: normal;
   /* added */
   margin: 60px 0;
-  /* fixed */
+  /* fixed; vertical horizontal/ NESW */
   font-size: 60px;
   /* added */
 }
-
