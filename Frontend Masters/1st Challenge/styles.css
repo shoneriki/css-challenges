@@ -3,8 +3,9 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .main-brand {
@@ -22,9 +23,16 @@ body {
 .story {
   padding: 16px;
   border: 1px solid #ccc;
-
 }
 
+.quarter {
+  width: 25%;
+}
 
+.half {
+  width: 50%;
+}
 
-.
+.three-quarters {
+  width: 75%;
+}
