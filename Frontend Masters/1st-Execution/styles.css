@@ -38,15 +38,15 @@ body {
 }
 
 .quarter {
-  flex: 1;
+  width: 25%;
 }
 
 .half {
-  flex: 2;
+  width: 50%;
 }
 
 .three-quarters {
-  flex: 3;
+  width: 75%;
 }
 
 .nav-list {
