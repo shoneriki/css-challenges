@@ -13,3 +13,18 @@ body {
   font-weight: normal;
   text-align: center;
 }
+
+.row {
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.story {
+  padding: 16px;
+  border: 1px solid #ccc;
+
+}
+
+
+
+.
