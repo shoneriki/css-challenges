@@ -49,7 +49,7 @@ body {
   width: 74.8%;
 }
 
-.calc-button-row {
+.calc-row {
   display: flex;
   align-content: stretch;
   justify-content: space-between;
@@ -57,5 +57,13 @@ body {
 }
 
 .calc-button:last-child {
-  background-color: orange;
+  background-color: #df974c;
+}
+
+.calc-button:last-child:hover {
+  background-color: #efb07e;
+}
+
+.calc-button:last-child:active {
+  background-color: #dd8d37;
 }
