@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  font-size: 30px;
+}
+
+.whole {
+  height: 25vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+
+}
+
+.single {
+  height: 25vh;
+  width: 25vw;
+}
+
+.half {
+  height: 25vh;
+  width: 50vw;
+}
+
+.three-quarters {
+  height: 25vh;
+  width: 75vw;
+}
+
+.orange {
+  background-color: orange;
+}
