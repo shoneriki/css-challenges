@@ -3,8 +3,6 @@ let buffer = "0";
 let previousOperator = null;
 const screen = document.querySelector('.screen')
 
-
-
 document.querySelector('.calc-buttons').addEventListener('click', function(event) {
   buttonClick(event.target.innerText);
 })
