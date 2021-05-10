@@ -26,6 +26,11 @@ body {
   font-size: 30px;
 }
 
+.key:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
 .whole {
   height: 25vh;
   width: 100vw;
